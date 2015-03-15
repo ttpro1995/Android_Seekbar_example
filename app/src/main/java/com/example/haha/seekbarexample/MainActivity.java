@@ -25,6 +25,7 @@ public class MainActivity extends ActionBarActivity {
             @Override
             public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
                 UpdateProgress(progress);
+                //when seek bar is being changed, this function will run.
             }
 
             @Override
